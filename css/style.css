@@ -4,6 +4,17 @@ body{
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
+.company-name{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: green;
+}
+.company-moto{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(0, 128, 0, 0.788);
+}
 .container-name{
     font-size: 32px;
     font-weight: 600;
