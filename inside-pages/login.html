@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- fontawesome link -->
@@ -45,7 +45,7 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="login.html">Login</a>
+                        <a class="nav-link active" href="#">Login</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="signup.html">Signup</a>
@@ -60,47 +60,33 @@
         </section><br><br>
     </header>
     <main>
-      <h3 class="text-center text-success fw-bolder">Enter Your Informations to SignUp</h3><br>
-        <!-- sign up form here -->
+        <h3 class="text-center text-success fw-bolder">Enter Your Informations to Login</h3><br>
         <div class="container">
-          <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-md-8">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">First Name</label>
-                  <input type="text" class="form-control" id="" placeholder="Enter First Name">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="" placeholder="Enter Email">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Password</label>
+                            <input type="email" class="form-control" id="" placeholder="Enter Email">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-outline-success">Login</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Last Name</label>
-                  <input type="text" class="form-control" id="" placeholder="Enter Last Name">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="" placeholder="Enter Email">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="inputAddress" placeholder="Enter password">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Confirm Password</label>
-                  <input type="text" class="form-control" id="inputAddress2"  placeholder="Enter password again">
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-outline-success">Submit</button>
-                </div>
-              </form>
+                <div class="col-sm-2"></div>
             </div>
-            <div class="col-sm-2"></div>
-          </div>
         </div><br>
-<!-- already have account login -->
-<div class="login-button text-center">
-  <h6 class="text-primary">Already Have An Account?</h6>
-  <button type="submit" class="btn btn-outline-success">Login</button>
+        <!-- already have account login -->
+<div class="signup-button text-center">
+    <h6 class="text-primary">Don't Have An Account?</h6>
+    <button type="submit" class="btn btn-outline-success">SignUp</button>
 </div><br><br>
-        
     </main>
     <footer>
         <section class="section-6">
